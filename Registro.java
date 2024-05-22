@@ -1,7 +1,11 @@
 /**
- * Creación de proyecto con funcionamiento para registrar a personas en el sistema
- * @Autor Daniel Expósito Seoane
- * @Version 1.0
+ * Clase de pruebas para la clase Persona.
+ * <p>
+ * Verifica los métodos getDNI y getEdad de la clase Persona.
+ * </p>
+ * 
+ * @autor Daniel Expósito Seoane
+ * @version 1.0
  */
 
  // Importación de los paquetes necesarios para la gestión del programa
@@ -22,6 +26,93 @@ class Persona {
     private int edad;
 
     
+    /** 
+     * Representa el dni del usuario
+     * @return String
+     */
+    public String getDni() {
+        return dni;
+    }
+
+
+    
+    /** 
+     * Representa el correo del usuario
+     * @return String
+     */
+    public String getCorreo() {
+        return correo;
+    }
+
+
+    
+    /** 
+     * Representa la contraseña del usuario
+     * @return String
+     */
+    public String getContrasena() {
+        return contrasena;
+    }
+
+
+    
+    /** 
+     * Representa el nombre del usuario
+     * @return String
+     */
+    public String getNombre() {
+        return nombre;
+    }
+
+
+    
+    /** 
+     * Representa los apellidos del usuario
+     * @return String
+     */
+    public String getApellidos() {
+        return apellidos;
+    }
+
+
+    
+    /** 
+     * Representa la dirección postal del usuario
+     * @return String
+     */
+    public String getDireccionPostal() {
+        return direccionPostal;
+    }
+
+
+    
+    /** 
+     * Representa el código postal del usuario
+     * @return String
+     */
+    public String getCodigoPostal() {
+        return codigoPostal;
+    }
+
+
+    
+    /** 
+     * Representa el teléfono del usuario
+     * @return String
+     */
+    public String getTelefono() {
+        return telefono;
+    }
+
+
+    
+    /** 
+     * Representa la edad del usuario
+     * @return int
+     */
+    public int getEdad() {
+        return edad;
+    }
     /** 
      * Establece que el DNI debe seguir con un patrón determiando de hasta 8 dígitos y si no no será válido
      * @param dni
