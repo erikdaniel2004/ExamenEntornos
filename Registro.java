@@ -72,8 +72,6 @@ class Persona {
         }
     }
 
-    
-    
     /** 
      * Establece el nombre del usuario
      * @param nombre
